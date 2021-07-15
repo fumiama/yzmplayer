@@ -69,6 +69,6 @@ http://localhost/player/?url=https://cdn.jsdelivr.net/gh/MoGuJ/Video-Bed/Your.Na
 
 > 2020年7月泽泽
 
-1，修复弹幕后台管理登录系统后门（原版居然将正确密码存cookie里了）
-2，修复安装程序界面没有样式问题
-3，后台登录支持输出账号与密码了，更改用户名与密码请修改dmku文件夹下的config.inc.php文件
+1. 修复弹幕后台管理登录系统后门（原版居然将正确密码存cookie里了）
+2. 修复安装程序界面没有样式问题
+3. 后台登录支持输出账号与密码了，更改用户名与密码请修改dmku文件夹下的config.inc.php文件

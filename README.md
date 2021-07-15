@@ -39,15 +39,15 @@ extension=mysqli
 5. 播放器功能可后台设置
 
 # 参数说明（player/index.php）
-- `av`: `<?php echo($_GET['av']);?>`,//B站av号，用于调用弹幕
-- `url`: `<?php echo($_GET['url']);?>`,//视频链接
-- `id`: `<?php echo($_GET['url']);?>`,//视频id
-- `sid`: `<?php echo($_GET['sid']);?>`,//集数id
-- `pic`: `<?php echo($_GET['pic']);?>`,//视频封面
-- `title`: `<?php echo($_GET['name']);?>`,//视频标题
-- `next`: `<?php echo($_GET['next']);?>`,//下一集链接
-- `user`: `<?php echo($_GET['user']);?>`,//用户名
-- `group`: ` <?php echo($_GET['group']);?>`,//用户组
+- `av`: B站av号，用于调用弹幕
+- `url`: 视频链接
+- `id`: 视频id
+- `sid`: 集数id
+- `pic`: 视频封面
+- `title`: 视频标题
+- `next`: 下一集链接
+- `user`: 用户名
+- `group`: 用户组
 
 # 请求示例
 #### 基本

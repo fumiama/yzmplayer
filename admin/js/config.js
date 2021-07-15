@@ -22,7 +22,7 @@ function text() {
       $.ajax({
       type : 'POST',
       data:$('#configform').serialize(),
-      url :'post.php?act=reset',  
+      url :'/admin/post.php?act=reset',  
       success : function (data) {
       layer.msg('还原完成',{time:1000});}
       });

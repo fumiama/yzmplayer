@@ -19,7 +19,7 @@ var YZM = {
 	}(),
 	'start': function() {
 		$.ajax({
-			url: "/bili/admin/api.php",
+			url: "/admin/api.php",
 			dataType: "json",
 			success: function(e) {
 				YZM.waittime = e.data.waittime

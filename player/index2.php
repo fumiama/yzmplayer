@@ -226,7 +226,7 @@
             "diyid": [0, '游客', 1] //自定义弹幕id
         }
         var config = {
-            "api": '/bili/dmku/', //弹幕接口
+            "api": '/dmku/', //弹幕接口
             "av": '<?php echo ($_GET['av']); ?>', //B站弹幕id 45520296
             "url": "<?php echo ($_GET['url']); ?>", //视频链接
             "id": "<?php echo (substr(md5($_GET['url']), -20)); ?>", //视频id

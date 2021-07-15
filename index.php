@@ -207,12 +207,12 @@
     <!--div class="tj"><script type="text/javascript" src="cnzz.com"></script></div-->
     <script>
         var up = {
-            "usernum": "<?php include("tj.php"); ?>", //在线人数
+            "usernum": "<?php include("./player/tj.php"); ?>", //在线人数
             "mylink": "", //播放器路径，用于下一集
             "diyid": [0, '游客', 1] //自定义弹幕id
         }
         var config = {
-            "api": '/bili/dmku/', //弹幕接口/dmku/
+            "api": '/dmku/', //弹幕接口/dmku/
             "av": '<?php echo ($_GET['av']); ?>', //B站弹幕id 45520296
             "url": "<?php echo ($_GET['url']); ?>", //视频链接
             "id": "<?php echo (substr(md5($_GET['url']), -20)); ?>", //视频id

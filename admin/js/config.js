@@ -11,7 +11,7 @@ function text() {
       $.ajax({
       type : 'POST',
   data:$('#configform').serialize(),
-      url :'post.php?act=setting',  
+      url :'/admin/post.php?act=setting',  
       success : function (data) {
   layer.msg('保存完成',{time:1000});
       }

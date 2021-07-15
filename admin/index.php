@@ -8,8 +8,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css" />
 	<script type="text/javascript" src="https://www.layuicdn.com/layui/layui.js" type="text/javascript" charset="utf-8"></script>
-	<script src="./js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="./js/config.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/admin/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/admin/js/config.js" type="text/javascript" charset="utf-8"></script>
 
 	<style>
 		.layui-elem-field {

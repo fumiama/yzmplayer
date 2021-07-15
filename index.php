@@ -173,9 +173,9 @@
             width: 400px;
         }
     </style>
-    <script src="https://cdn.jsdelivr.net/gh/cairs00/yzmplayer@master/player/js/yzmplayer.js?20210406"></script>
+    <script src="/player/js/yzmplayer.js?20210406"></script>
     <script src="https://cdn.jsdelivr.net/gh/cairs00/yzmplayer@master/player/js/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cairs00/yzmplayer@master/player/js/setting.js?20210412"></script>
+    <script src="/player/js/setting.js?20210412"></script>
     <?php
     if (strpos($_GET['url'], 'm3u8')) {
         echo '<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>';
